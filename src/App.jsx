@@ -9,6 +9,7 @@ function App(){
     return (
       <>
       <h3>Formulário</h3>
+      <br>
       <input
         className="nome"
         onChange={(e)=>{setNome(e.target.value)}}
@@ -23,7 +24,7 @@ function App(){
       >
         CLIQUE AQUI
       </button>
-
+</br>
       </>
     )
   }
@@ -33,10 +34,7 @@ function App(){
       <h3>Pizzaria 2D</h3>
 
       <Formulario />
-      <Formulario />
-      <Formulario />
-      <Formulario />
-
+     
     </div>
   )
 }
